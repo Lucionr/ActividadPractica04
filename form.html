@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="imágenes/kitchen.ico"/>
+    <link rel="stylesheet" href="CSS/stylesForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="nav" href="index.html">Home</a>
+            <a class="nav" href="">Acerca de</a>
+            <a class="nav" href="">Contacto</a>
+            <a class="nav" href="form.html">Regístrese</a>
+            <a class="nav" href="">Sucursales</a>
+        </nav>
+        <h1>La cocina de Juan</h1>
+    </header>
+    <main>
+        <h2 class="formulario">Formulario de registro</h2>
+        <form action="link" method="post" style="padding-top: 5px;">
+            <label for="name">Nombre:</label>   
+            <input type="text" name="name" id="name" placeholder="Ingresá tu nombre" maxlength="10" required>
+            <br><br>
+            <label for="lastname">Apellido:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Ingresá tu apellido" maxlength="20">
+            <br><br>
+            <p>Dirección:</p>
+            <label for="address">Calle:</label>
+            <input type="text" name="address" id="address" placeholder="Ingresá tu direción" maxlength="20">
+            <br><br>
+            <label for="number">Número:</label>
+            <input type="number" name="number" id="number" placeholder="Ingresá el número" maxlength="20">
+            <br><br>
+            <label for="city">Ciudad:</label>
+            <input type="text" name="city" id="city" placeholder="Ingresá tu localidad" maxlength="20">
+            <br><br>
+            <label for="lastname">Código postal:</label>
+            <input type="number" name="postal" id="postal" placeholder="Ingresá tu código postal" maxlength="6">
+            <br><br>
+            <label for="phone">Teléfono:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Ingresá tu número de teléfono" maxlength="20">
+            <br><br>
+            <label for="date">Fecha de nacimiento:</label>
+            <input type="date" name="date" id="date" placeholder="Ingresá tu fecha de nacimiento" maxlength="20">
+            <br><br>
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="mail" placeholder="Ingresá tu mail">
+            <br><br>
+            <label for="pass">Contraseña:</label>
+            <input type="password" name="pass" id="pass" placeholder="Ingresá tu contraseña">
+            <br><br>
+            <label for="sex">Género:</label>
+            <input type="radio" name="sex" id="sex" value="1">Hombre
+            <input type="radio" name="sex" id="sex" value="2">Mujer
+            <input type="radio" name="sex" id="sex" value="3">Otro
+            <br><br>
+            <label for="experience">Conocimientos previos:</label>
+            <input type="checkbox" name="experience" id="experience" value="1">HTML
+            <input type="checkbox" name="experience" id="experience" value="2">CSS
+            <input type="checkbox" name="experience" id="experience" value="3">Bootstrap
+            <input type="checkbox" name="experience" id="experience" value="4">JAVASCRIPT
+            <input type="checkbox" name="experience" id="experience" value="5">Typescript
+            <input type="checkbox" name="experience" id="experience" value="6">Angular
+            <input type="checkbox" name="experience" id="experience" value="7">Base de datos
+            <input type="checkbox" name="experience" id="experience" value="8">Python
+            <input type="checkbox" name="experience" id="experience" value="9">Django
+            <br><br>
+            <label for="studies">Estudios:</label>
+            <select name="studies" id="studies">
+                <option value="1">Primaria</option>
+                <option value="2">Secundaria</option>
+                <option value="3">Terciario</option>
+                <option value="4">Universitario</option>
+            </select>
+            <br><br>
+            <label for="comments">Comentarios:</label> <br>
+            <textarea name="comments" id="comments" cols="30" rows="5">Ingrese un comentario</textarea>
+            <br><br>
+            <input type="submit">
+            </form>
+    </main>
+    <footer>
+        <a class="fa fa-instagram" style="font-size:24px; text-decoration: none; color: white;" href="http://www.instagram.com"></a>
+        <a class="fa fa-facebook-f" style="font-size:24px; text-decoration: none; color: white;" href="http://www.facebook.com"></a>
+        <a class="fa fa-twitter" style="font-size:24px; text-decoration: none; color: white;" href="http://www.twitter.com"></a>
+        <p>Derechos Reservados @2020</p>
+    </footer>
+</body>
+</html>
